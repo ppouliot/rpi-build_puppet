@@ -1,7 +1,7 @@
 #!/bin/bash
-cat > /etc/apt/sources.list.d/puppetlabs.list << EOF
-deb-src http://apt.puppetlabs.com wheezy main
-deb-src http://apt.puppetlabs.com wheezy dependencies
+cat > /etc/apt/sources.list.d/puppet.list << EOF
+deb-src https://apt.puppet.com jessie main
+deb-src https://apt.puppet.com jessie dependencies
 EOF
 
 apt-get update -y
